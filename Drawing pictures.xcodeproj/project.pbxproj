@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8422846126B5A62A00145290 /* PlanetPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846026B5A62A00145290 /* PlanetPath.m */; };
+		8422846326B5A7DF00145290 /* TreePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846226B5A7DF00145290 /* TreePath.m */; };
 		84292DD526B537630045D638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84292DD426B537630045D638 /* AppDelegate.swift */; };
 		84292DD726B537630045D638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84292DD626B537630045D638 /* SceneDelegate.swift */; };
 		84292DDE26B537650045D638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84292DDD26B537650045D638 /* Assets.xcassets */; };
@@ -14,9 +16,16 @@
 		84292DF026B53BF30045D638 /* UIColor+MyColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292DEF26B53BF30045D638 /* UIColor+MyColors.m */; };
 		84292DF326B541EC0045D638 /* UIFont+MyFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292DF226B541EC0045D638 /* UIFont+MyFont.m */; };
 		84292DF626B5454F0045D638 /* UIView+ToPNGDataMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292DF526B5454F0045D638 /* UIView+ToPNGDataMethod.m */; };
+		84292E0226B5494D0045D638 /* PathToDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0126B5494D0045D638 /* PathToDraw.m */; };
+		84292E0526B55D940045D638 /* HeadPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0426B55D940045D638 /* HeadPath.m */; };
+		84292E0826B5678C0045D638 /* LandscapePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0726B5678C0045D638 /* LandscapePath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8422845F26B5A58A00145290 /* PlanetPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanetPath.h; sourceTree = "<group>"; };
+		8422846026B5A62A00145290 /* PlanetPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetPath.m; sourceTree = "<group>"; };
+		8422846226B5A7DF00145290 /* TreePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreePath.m; sourceTree = "<group>"; };
+		8422846426B5A7F000145290 /* TreePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreePath.h; sourceTree = "<group>"; };
 		84292DD126B537630045D638 /* Drawing pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84292DD426B537630045D638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84292DD626B537630045D638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +38,12 @@
 		84292DF226B541EC0045D638 /* UIFont+MyFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MyFont.m"; sourceTree = "<group>"; };
 		84292DF426B5454F0045D638 /* UIView+ToPNGDataMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ToPNGDataMethod.h"; sourceTree = "<group>"; };
 		84292DF526B5454F0045D638 /* UIView+ToPNGDataMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ToPNGDataMethod.m"; sourceTree = "<group>"; };
+		84292E0126B5494D0045D638 /* PathToDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathToDraw.m; sourceTree = "<group>"; };
+		84292E0326B5495F0045D638 /* PathToDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathToDraw.h; sourceTree = "<group>"; };
+		84292E0426B55D940045D638 /* HeadPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadPath.m; sourceTree = "<group>"; };
+		84292E0626B55DA50045D638 /* HeadPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadPath.h; sourceTree = "<group>"; };
+		84292E0726B5678C0045D638 /* LandscapePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapePath.m; sourceTree = "<group>"; };
+		84292E0926B567C10045D638 /* LandscapePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapePath.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +105,16 @@
 		84292DE926B537A00045D638 /* Paths */ = {
 			isa = PBXGroup;
 			children = (
+				84292E0326B5495F0045D638 /* PathToDraw.h */,
+				84292E0126B5494D0045D638 /* PathToDraw.m */,
+				84292E0626B55DA50045D638 /* HeadPath.h */,
+				84292E0426B55D940045D638 /* HeadPath.m */,
+				84292E0926B567C10045D638 /* LandscapePath.h */,
+				84292E0726B5678C0045D638 /* LandscapePath.m */,
+				8422845F26B5A58A00145290 /* PlanetPath.h */,
+				8422846026B5A62A00145290 /* PlanetPath.m */,
+				8422846426B5A7F000145290 /* TreePath.h */,
+				8422846226B5A7DF00145290 /* TreePath.m */,
 			);
 			path = Paths;
 			sourceTree = "<group>";
@@ -178,11 +203,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8422846126B5A62A00145290 /* PlanetPath.m in Sources */,
 				84292DF626B5454F0045D638 /* UIView+ToPNGDataMethod.m in Sources */,
+				8422846326B5A7DF00145290 /* TreePath.m in Sources */,
 				84292DD526B537630045D638 /* AppDelegate.swift in Sources */,
 				84292DF026B53BF30045D638 /* UIColor+MyColors.m in Sources */,
+				84292E0526B55D940045D638 /* HeadPath.m in Sources */,
 				84292DF326B541EC0045D638 /* UIFont+MyFont.m in Sources */,
 				84292DD726B537630045D638 /* SceneDelegate.swift in Sources */,
+				84292E0226B5494D0045D638 /* PathToDraw.m in Sources */,
+				84292E0826B5678C0045D638 /* LandscapePath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
