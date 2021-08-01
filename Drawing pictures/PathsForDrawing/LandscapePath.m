@@ -10,7 +10,7 @@
 
 @implementation LandscapePath
     
-+(CGPathRef) pathOne{
+-(CGPathRef) pathOne{
     UIBezierPath *path = [UIBezierPath new];
     [path moveToPoint: CGPointMake(249, 134)];
     [path addLineToPoint:  CGPointMake(255.5, 143.5)];
@@ -178,7 +178,7 @@
     [path addLineToPoint:  CGPointMake(109.5, 131)];
     return path.CGPath;
 }
-+(CGPathRef) pathTwo{
+-(CGPathRef) pathTwo{
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint: CGPointMake(35.5, 213.5)];
     [path addLineToPoint:  CGPointMake(50, 213.5)];
@@ -223,7 +223,7 @@
     
     return path.CGPath;
 }
-+(CGPathRef) pathThree{
+-(CGPathRef) pathThree{
     UIBezierPath *path = [UIBezierPath bezierPath];
     
     [path moveToPoint: CGPointMake(103.5, 153)];

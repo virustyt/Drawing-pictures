@@ -6,7 +6,7 @@
 //
 
 @import UIKit;
-#import "ColorOnButtonView.h"
+#import "ColorOnPaletteView.h"
 
 #ifndef PaletteView_h
 #define PaletteView_h

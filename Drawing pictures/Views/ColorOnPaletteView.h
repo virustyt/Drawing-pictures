@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ColorOnButtonView : UIView
+@interface ColorOnPaletteView : UIView
 -(instancetype) initWithColor:(UIColor*) color;
 @end
 

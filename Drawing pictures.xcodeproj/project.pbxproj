@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8411017E26B6B7F200759BCE /* ColorOnButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411017D26B6B7F200759BCE /* ColorOnButtonView.m */; };
+		8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */; };
+		8411018126B6CE4F00759BCE /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018026B6CE4F00759BCE /* CanvasView.m */; };
 		8422846126B5A62A00145290 /* PlanetPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846026B5A62A00145290 /* PlanetPath.m */; };
 		8422846326B5A7DF00145290 /* TreePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846226B5A7DF00145290 /* TreePath.m */; };
 		8422846926B5AA2F00145290 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422846626B5AA2F00145290 /* CanvasView.swift */; };
-		8422846A26B5AA2F00145290 /* PaletteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422846726B5AA2F00145290 /* PaletteButton.swift */; };
 		8422846D26B5AA7200145290 /* ActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846C26B5AA7200145290 /* ActionButton.m */; };
 		8422846F26B5AAFE00145290 /* DrawButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846E26B5AAFE00145290 /* DrawButton.m */; };
 		8422847326B5BB3200145290 /* PaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422847226B5BB3200145290 /* PaletteView.m */; };
@@ -28,14 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8411017C26B6B7F200759BCE /* ColorOnButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorOnButtonView.h; sourceTree = "<group>"; };
-		8411017D26B6B7F200759BCE /* ColorOnButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorOnButtonView.m; sourceTree = "<group>"; };
+		8411017C26B6B7F200759BCE /* ColorOnPaletteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorOnPaletteView.h; sourceTree = "<group>"; };
+		8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorOnPaletteView.m; sourceTree = "<group>"; };
+		8411017F26B6CE4F00759BCE /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		8411018026B6CE4F00759BCE /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		8422845F26B5A58A00145290 /* PlanetPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanetPath.h; sourceTree = "<group>"; };
 		8422846026B5A62A00145290 /* PlanetPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetPath.m; sourceTree = "<group>"; };
 		8422846226B5A7DF00145290 /* TreePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreePath.m; sourceTree = "<group>"; };
 		8422846426B5A7F000145290 /* TreePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreePath.h; sourceTree = "<group>"; };
 		8422846626B5AA2F00145290 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
-		8422846726B5AA2F00145290 /* PaletteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteButton.swift; sourceTree = "<group>"; };
 		8422846B26B5AA6400145290 /* ActionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionButton.h; sourceTree = "<group>"; };
 		8422846C26B5AA7200145290 /* ActionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionButton.m; sourceTree = "<group>"; };
 		8422846E26B5AAFE00145290 /* DrawButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawButton.m; sourceTree = "<group>"; };
@@ -138,16 +139,17 @@
 		84292DEA26B537A80045D638 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8422846726B5AA2F00145290 /* PaletteButton.swift */,
 				8422846626B5AA2F00145290 /* CanvasView.swift */,
+				8411017F26B6CE4F00759BCE /* CanvasView.h */,
+				8411018026B6CE4F00759BCE /* CanvasView.m */,
 				8422846B26B5AA6400145290 /* ActionButton.h */,
 				8422846C26B5AA7200145290 /* ActionButton.m */,
 				8422847026B5AB1D00145290 /* DrawButton.h */,
 				8422846E26B5AAFE00145290 /* DrawButton.m */,
 				8422847126B5BB0B00145290 /* PaletteView.h */,
 				8422847226B5BB3200145290 /* PaletteView.m */,
-				8411017C26B6B7F200759BCE /* ColorOnButtonView.h */,
-				8411017D26B6B7F200759BCE /* ColorOnButtonView.m */,
+				8411017C26B6B7F200759BCE /* ColorOnPaletteView.h */,
+				8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,13 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8411017E26B6B7F200759BCE /* ColorOnButtonView.m in Sources */,
+				8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */,
 				8422846126B5A62A00145290 /* PlanetPath.m in Sources */,
 				84292DF626B5454F0045D638 /* UIView+ToPNGDataMethod.m in Sources */,
 				8422846926B5AA2F00145290 /* CanvasView.swift in Sources */,
 				8422846D26B5AA7200145290 /* ActionButton.m in Sources */,
 				8422846326B5A7DF00145290 /* TreePath.m in Sources */,
-				8422846A26B5AA2F00145290 /* PaletteButton.swift in Sources */,
 				8422847326B5BB3200145290 /* PaletteView.m in Sources */,
 				8422846F26B5AAFE00145290 /* DrawButton.m in Sources */,
 				84292DD526B537630045D638 /* AppDelegate.swift in Sources */,
@@ -244,6 +245,7 @@
 				84292DF326B541EC0045D638 /* UIFont+MyFont.m in Sources */,
 				84292DD726B537630045D638 /* SceneDelegate.swift in Sources */,
 				84292E0226B5494D0045D638 /* PathToDraw.m in Sources */,
+				8411018126B6CE4F00759BCE /* CanvasView.m in Sources */,
 				84292E0826B5678C0045D638 /* LandscapePath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@
 
 @implementation PlanetPath
 
-+(CGPathRef) pathOne{
+-(CGPathRef) pathOne{
     UIBezierPath *path = [UIBezierPath bezierPath];
     
     [path moveToPoint: CGPointMake(60.5, 154)];
@@ -143,7 +143,7 @@
         
     return path.CGPath;
 }
-+(CGPathRef) pathTwo{
+-(CGPathRef) pathTwo{
     UIBezierPath *path = [UIBezierPath bezierPath];
     
     [path moveToPoint: CGPointMake(156, 114.5)];

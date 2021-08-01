@@ -11,7 +11,7 @@
 
 @implementation HeadPath
 
-+(CGPathRef) pathOne {
+-(CGPathRef) pathOne {
     UIBezierPath *path = [UIBezierPath new];
     [path moveToPoint:CGPointMake(61.5, 29)];
     [path addLineToPoint:CGPointMake(77, 89)];
@@ -30,7 +30,7 @@
     [path addLineToPoint:CGPointMake(193, 96)];
     return path.CGPath;
 }
-+(CGPathRef) pathTwo {
+-(CGPathRef) pathTwo {
     UIBezierPath *path = [UIBezierPath new];
     [path moveToPoint:CGPointMake(184, 100)];
     [path addLineToPoint:CGPointMake(175.5, 98.5)];
@@ -72,7 +72,7 @@
     [path addLineToPoint:CGPointMake(187, 94)];
     return path.CGPath;
 }
-+(CGPathRef) pathThree {
+-(CGPathRef) pathThree {
     UIBezierPath *path = [UIBezierPath new];
     [path moveToPoint:CGPointMake(189, 102.5)];
     [path addLineToPoint:CGPointMake(194, 108.5)];

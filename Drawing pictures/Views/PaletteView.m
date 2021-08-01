@@ -75,7 +75,7 @@
 }
 
 -(void) setup {
-    ColorOnButtonView *colorOnButtonView = [[ColorOnButtonView alloc]
+    ColorOnPaletteView *colorOnButtonView = [[ColorOnPaletteView alloc]
                                             initWithColor:UIColor.blackColor];
     
     self.smallWidthContraint = [colorOnButtonView.widthAnchor constraintEqualToAnchor:self.widthAnchor multiplier:0.6];

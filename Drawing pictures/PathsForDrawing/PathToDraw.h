@@ -11,9 +11,9 @@
 
 @protocol PathTemplate <NSObject>
 @required
-@property (class,readonly,nonatomic) CGPathRef pathOne;
-@property (class,readonly,nonatomic) CGPathRef pathTwo;
-@property (class,readonly,nonatomic) CGPathRef pathThree;
+@property (readonly,nonatomic) CGPathRef pathOne;
+@property (readonly,nonatomic) CGPathRef pathTwo;
+@property (readonly,nonatomic) CGPathRef pathThree;
 @end
 
 @interface PathToDraw : NSObject

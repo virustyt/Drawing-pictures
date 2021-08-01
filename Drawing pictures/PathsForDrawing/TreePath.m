@@ -10,7 +10,7 @@
 
 @implementation TreePath
 
-+(CGPathRef) pathOne {
+-(CGPathRef) pathOne {
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(233.19,85.76)];
     [path addCurveToPoint:CGPointMake(220.5,62) controlPoint1: CGPointMake(237,68.49) controlPoint2: CGPointMake(229.61,62)];
@@ -71,7 +71,7 @@
     return path.CGPath;
 }
 
-+(CGPathRef) pathTwo {
+-(CGPathRef) pathTwo {
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint: CGPointMake(102, 270.5)];
     [path addCurveToPoint: CGPointMake(163.5, 207.5) controlPoint1: CGPointMake(121.83, 264.67) controlPoint2: CGPointMake(161.9, 243.9)];
@@ -89,7 +89,7 @@
     return path.CGPath;
 }
 
-+(CGPathRef) pathThree {
+-(CGPathRef) pathThree {
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint: CGPointMake(119.5, 263.5)];
     [path addCurveToPoint: CGPointMake(86, 268.81) controlPoint1: CGPointMake(111.5, 255) controlPoint2: CGPointMake(96.4, 255.61)];

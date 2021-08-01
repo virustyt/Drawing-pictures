@@ -5,9 +5,9 @@
 //  Created by Vladimir Oleinikov on 01.08.2021.
 //
 
-#import "ColorOnButtonView.h"
+#import "ColorOnPaletteView.h"
 
-@implementation ColorOnButtonView
+@implementation ColorOnPaletteView
 
 -(instancetype) initWithColor:(UIColor*) color{
     self = [super init];
@@ -19,4 +19,7 @@
     return self;
 }
 
+-(instancetype) initWithCoder:(NSCoder *)coder {
+    @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"init(coder:) has not been implemented" userInfo:nil];
+}
 @end
