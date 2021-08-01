@@ -5,9 +5,9 @@
 //  Created by Vladimir Oleinikov on 31.07.2021.
 //
 
-#import "PaletteView.h"
+#import "PaletteControl.h"
 
-@interface PaletteView ()
+@interface PaletteControl ()
 @property NSLayoutConstraint* smallWidthContraint;
 @property NSLayoutConstraint* smallHeightContraint;
 
@@ -17,7 +17,7 @@
 @property (readwrite) UIColor* color;
 @end
 
-@implementation PaletteView
+@implementation PaletteControl
 
 -(CGSize) intrinsicContentSize {
     return CGSizeMake(40.0, 40.0);

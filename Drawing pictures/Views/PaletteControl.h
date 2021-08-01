@@ -10,9 +10,10 @@
 
 #ifndef PaletteView_h
 #define PaletteView_h
-@interface PaletteView : UIControl
+@interface PaletteControl : UIControl
 @property (readonly) UIView* colorView;
 @property (nonatomic) bool isOn;
 -(void) setup;
+-(instancetype) init:(UIColor*) color;
 @end
 #endif /* PaletteView_h */

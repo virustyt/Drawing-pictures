@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */; };
 		8411018126B6CE4F00759BCE /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018026B6CE4F00759BCE /* CanvasView.m */; };
+		8411018826B6E2F800759BCE /* DrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018226B6E2F800759BCE /* DrawingsViewController.swift */; };
+		8411018926B6E2F800759BCE /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018326B6E2F800759BCE /* ArtistViewController.swift */; };
+		8411018A26B6E2F800759BCE /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018426B6E2F800759BCE /* ModalViewController.swift */; };
+		8411018B26B6E2F800759BCE /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018526B6E2F800759BCE /* PaletteViewController.swift */; };
+		8411018C26B6E2F800759BCE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018626B6E2F800759BCE /* TimerViewController.swift */; };
+		8411018D26B6E2F800759BCE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018726B6E2F800759BCE /* NavigationController.swift */; };
+		8411019026B6E34B00759BCE /* ArtisiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018F26B6E34B00759BCE /* ArtisiViewController.m */; };
+		8411019326B6F57A00759BCE /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411019226B6F57A00759BCE /* PaletteViewController.m */; };
 		8422846126B5A62A00145290 /* PlanetPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846026B5A62A00145290 /* PlanetPath.m */; };
 		8422846326B5A7DF00145290 /* TreePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846226B5A7DF00145290 /* TreePath.m */; };
-		8422846926B5AA2F00145290 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422846626B5AA2F00145290 /* CanvasView.swift */; };
 		8422846D26B5AA7200145290 /* ActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846C26B5AA7200145290 /* ActionButton.m */; };
 		8422846F26B5AAFE00145290 /* DrawButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846E26B5AAFE00145290 /* DrawButton.m */; };
-		8422847326B5BB3200145290 /* PaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422847226B5BB3200145290 /* PaletteView.m */; };
+		8422847326B5BB3200145290 /* PaletteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422847226B5BB3200145290 /* PaletteControl.m */; };
 		84292DD526B537630045D638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84292DD426B537630045D638 /* AppDelegate.swift */; };
 		84292DD726B537630045D638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84292DD626B537630045D638 /* SceneDelegate.swift */; };
 		84292DDE26B537650045D638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84292DDD26B537650045D638 /* Assets.xcassets */; };
@@ -32,17 +39,26 @@
 		8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorOnPaletteView.m; sourceTree = "<group>"; };
 		8411017F26B6CE4F00759BCE /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		8411018026B6CE4F00759BCE /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		8411018226B6E2F800759BCE /* DrawingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingsViewController.swift; sourceTree = "<group>"; };
+		8411018326B6E2F800759BCE /* ArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		8411018426B6E2F800759BCE /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		8411018526B6E2F800759BCE /* PaletteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
+		8411018626B6E2F800759BCE /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		8411018726B6E2F800759BCE /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		8411018E26B6E34B00759BCE /* ArtisiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtisiViewController.h; sourceTree = "<group>"; };
+		8411018F26B6E34B00759BCE /* ArtisiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtisiViewController.m; sourceTree = "<group>"; };
+		8411019126B6F57A00759BCE /* PaletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		8411019226B6F57A00759BCE /* PaletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
 		8422845F26B5A58A00145290 /* PlanetPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanetPath.h; sourceTree = "<group>"; };
 		8422846026B5A62A00145290 /* PlanetPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetPath.m; sourceTree = "<group>"; };
 		8422846226B5A7DF00145290 /* TreePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreePath.m; sourceTree = "<group>"; };
 		8422846426B5A7F000145290 /* TreePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreePath.h; sourceTree = "<group>"; };
-		8422846626B5AA2F00145290 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		8422846B26B5AA6400145290 /* ActionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionButton.h; sourceTree = "<group>"; };
 		8422846C26B5AA7200145290 /* ActionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionButton.m; sourceTree = "<group>"; };
 		8422846E26B5AAFE00145290 /* DrawButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawButton.m; sourceTree = "<group>"; };
 		8422847026B5AB1D00145290 /* DrawButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawButton.h; sourceTree = "<group>"; };
-		8422847126B5BB0B00145290 /* PaletteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteView.h; sourceTree = "<group>"; };
-		8422847226B5BB3200145290 /* PaletteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteView.m; sourceTree = "<group>"; };
+		8422847126B5BB0B00145290 /* PaletteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteControl.h; sourceTree = "<group>"; };
+		8422847226B5BB3200145290 /* PaletteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteControl.m; sourceTree = "<group>"; };
 		84292DD126B537630045D638 /* Drawing pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84292DD426B537630045D638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84292DD626B537630045D638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,15 +155,14 @@
 		84292DEA26B537A80045D638 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8422846626B5AA2F00145290 /* CanvasView.swift */,
 				8411017F26B6CE4F00759BCE /* CanvasView.h */,
 				8411018026B6CE4F00759BCE /* CanvasView.m */,
 				8422846B26B5AA6400145290 /* ActionButton.h */,
 				8422846C26B5AA7200145290 /* ActionButton.m */,
 				8422847026B5AB1D00145290 /* DrawButton.h */,
 				8422846E26B5AAFE00145290 /* DrawButton.m */,
-				8422847126B5BB0B00145290 /* PaletteView.h */,
-				8422847226B5BB3200145290 /* PaletteView.m */,
+				8422847126B5BB0B00145290 /* PaletteControl.h */,
+				8422847226B5BB3200145290 /* PaletteControl.m */,
 				8411017C26B6B7F200759BCE /* ColorOnPaletteView.h */,
 				8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */,
 			);
@@ -157,6 +172,16 @@
 		84292DEB26B537B40045D638 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8411018726B6E2F800759BCE /* NavigationController.swift */,
+				8411018326B6E2F800759BCE /* ArtistViewController.swift */,
+				8411018226B6E2F800759BCE /* DrawingsViewController.swift */,
+				8411018426B6E2F800759BCE /* ModalViewController.swift */,
+				8411018526B6E2F800759BCE /* PaletteViewController.swift */,
+				8411018626B6E2F800759BCE /* TimerViewController.swift */,
+				8411018E26B6E34B00759BCE /* ArtisiViewController.h */,
+				8411018F26B6E34B00759BCE /* ArtisiViewController.m */,
+				8411019126B6F57A00759BCE /* PaletteViewController.h */,
+				8411019226B6F57A00759BCE /* PaletteViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -231,13 +256,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8411018C26B6E2F800759BCE /* TimerViewController.swift in Sources */,
 				8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */,
 				8422846126B5A62A00145290 /* PlanetPath.m in Sources */,
 				84292DF626B5454F0045D638 /* UIView+ToPNGDataMethod.m in Sources */,
-				8422846926B5AA2F00145290 /* CanvasView.swift in Sources */,
+				8411018B26B6E2F800759BCE /* PaletteViewController.swift in Sources */,
+				8411018926B6E2F800759BCE /* ArtistViewController.swift in Sources */,
 				8422846D26B5AA7200145290 /* ActionButton.m in Sources */,
+				8411019326B6F57A00759BCE /* PaletteViewController.m in Sources */,
 				8422846326B5A7DF00145290 /* TreePath.m in Sources */,
-				8422847326B5BB3200145290 /* PaletteView.m in Sources */,
+				8411019026B6E34B00759BCE /* ArtisiViewController.m in Sources */,
+				8411018826B6E2F800759BCE /* DrawingsViewController.swift in Sources */,
+				8422847326B5BB3200145290 /* PaletteControl.m in Sources */,
 				8422846F26B5AAFE00145290 /* DrawButton.m in Sources */,
 				84292DD526B537630045D638 /* AppDelegate.swift in Sources */,
 				84292DF026B53BF30045D638 /* UIColor+MyColors.m in Sources */,
@@ -246,6 +276,8 @@
 				84292DD726B537630045D638 /* SceneDelegate.swift in Sources */,
 				84292E0226B5494D0045D638 /* PathToDraw.m in Sources */,
 				8411018126B6CE4F00759BCE /* CanvasView.m in Sources */,
+				8411018A26B6E2F800759BCE /* ModalViewController.swift in Sources */,
+				8411018D26B6E2F800759BCE /* NavigationController.swift in Sources */,
 				84292E0826B5678C0045D638 /* LandscapePath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
