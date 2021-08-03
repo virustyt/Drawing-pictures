@@ -110,7 +110,8 @@
     } else {
         if ([self.selectedColors count] == 3){
             id firstSelectedColor = [self.selectedColors firstObject];
-            NSArray *allPaletteControls = @[[[self.topRow arrangedSubviews] arrayByAddingObject:[self.botRow arrangedSubviews]]];
+            NSArray *allPaletteControls =[[self.topRow arrangedSubviews] arrayByAddingObjectsFromArray:
+                                          [self.botRow arrangedSubviews]];
             
             for (id paletteControl in allPaletteControls){
                 if([paletteControl isKindOfClass:PaletteControl.class]){

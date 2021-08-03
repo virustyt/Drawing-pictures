@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8403A2E026B989A5003AE4DF /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403A2DF26B989A5003AE4DF /* TimerViewController.m */; };
 		8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */; };
 		8411018126B6CE4F00759BCE /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018026B6CE4F00759BCE /* CanvasView.m */; };
 		8411018826B6E2F800759BCE /* DrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018226B6E2F800759BCE /* DrawingsViewController.swift */; };
 		8411018926B6E2F800759BCE /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018326B6E2F800759BCE /* ArtistViewController.swift */; };
 		8411018A26B6E2F800759BCE /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018426B6E2F800759BCE /* ModalViewController.swift */; };
-		8411018B26B6E2F800759BCE /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018526B6E2F800759BCE /* PaletteViewController.swift */; };
 		8411018C26B6E2F800759BCE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018626B6E2F800759BCE /* TimerViewController.swift */; };
 		8411018D26B6E2F800759BCE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018726B6E2F800759BCE /* NavigationController.swift */; };
 		8411019026B6E34B00759BCE /* ArtisiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018F26B6E34B00759BCE /* ArtisiViewController.m */; };
@@ -32,9 +32,13 @@
 		84292E0226B5494D0045D638 /* PathToDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0126B5494D0045D638 /* PathToDraw.m */; };
 		84292E0526B55D940045D638 /* HeadPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0426B55D940045D638 /* HeadPath.m */; };
 		84292E0826B5678C0045D638 /* LandscapePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0726B5678C0045D638 /* LandscapePath.m */; };
+		84329F2826B7353000680AAD /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84329F2726B7353000680AAD /* ModalViewController.m */; };
+		84329F2A26B7360000680AAD /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84329F2926B7360000680AAD /* PaletteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8403A2DE26B989A5003AE4DF /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		8403A2DF26B989A5003AE4DF /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		8411017C26B6B7F200759BCE /* ColorOnPaletteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorOnPaletteView.h; sourceTree = "<group>"; };
 		8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorOnPaletteView.m; sourceTree = "<group>"; };
 		8411017F26B6CE4F00759BCE /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
@@ -42,7 +46,6 @@
 		8411018226B6E2F800759BCE /* DrawingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingsViewController.swift; sourceTree = "<group>"; };
 		8411018326B6E2F800759BCE /* ArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
 		8411018426B6E2F800759BCE /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
-		8411018526B6E2F800759BCE /* PaletteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
 		8411018626B6E2F800759BCE /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		8411018726B6E2F800759BCE /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		8411018E26B6E34B00759BCE /* ArtisiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtisiViewController.h; sourceTree = "<group>"; };
@@ -77,6 +80,9 @@
 		84292E0626B55DA50045D638 /* HeadPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadPath.h; sourceTree = "<group>"; };
 		84292E0726B5678C0045D638 /* LandscapePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapePath.m; sourceTree = "<group>"; };
 		84292E0926B567C10045D638 /* LandscapePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapePath.h; sourceTree = "<group>"; };
+		84329F2626B7353000680AAD /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		84329F2726B7353000680AAD /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		84329F2926B7360000680AAD /* PaletteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,16 +178,20 @@
 		84292DEB26B537B40045D638 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				84329F2926B7360000680AAD /* PaletteViewController.swift */,
 				8411018726B6E2F800759BCE /* NavigationController.swift */,
 				8411018326B6E2F800759BCE /* ArtistViewController.swift */,
 				8411018226B6E2F800759BCE /* DrawingsViewController.swift */,
 				8411018426B6E2F800759BCE /* ModalViewController.swift */,
-				8411018526B6E2F800759BCE /* PaletteViewController.swift */,
 				8411018626B6E2F800759BCE /* TimerViewController.swift */,
-				8411018E26B6E34B00759BCE /* ArtisiViewController.h */,
-				8411018F26B6E34B00759BCE /* ArtisiViewController.m */,
+				84329F2626B7353000680AAD /* ModalViewController.h */,
+				84329F2726B7353000680AAD /* ModalViewController.m */,
 				8411019126B6F57A00759BCE /* PaletteViewController.h */,
 				8411019226B6F57A00759BCE /* PaletteViewController.m */,
+				8403A2DE26B989A5003AE4DF /* TimerViewController.h */,
+				8403A2DF26B989A5003AE4DF /* TimerViewController.m */,
+				8411018E26B6E34B00759BCE /* ArtisiViewController.h */,
+				8411018F26B6E34B00759BCE /* ArtisiViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -260,7 +270,7 @@
 				8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */,
 				8422846126B5A62A00145290 /* PlanetPath.m in Sources */,
 				84292DF626B5454F0045D638 /* UIView+ToPNGDataMethod.m in Sources */,
-				8411018B26B6E2F800759BCE /* PaletteViewController.swift in Sources */,
+				84329F2A26B7360000680AAD /* PaletteViewController.swift in Sources */,
 				8411018926B6E2F800759BCE /* ArtistViewController.swift in Sources */,
 				8422846D26B5AA7200145290 /* ActionButton.m in Sources */,
 				8411019326B6F57A00759BCE /* PaletteViewController.m in Sources */,
@@ -271,6 +281,7 @@
 				8422846F26B5AAFE00145290 /* DrawButton.m in Sources */,
 				84292DD526B537630045D638 /* AppDelegate.swift in Sources */,
 				84292DF026B53BF30045D638 /* UIColor+MyColors.m in Sources */,
+				84329F2826B7353000680AAD /* ModalViewController.m in Sources */,
 				84292E0526B55D940045D638 /* HeadPath.m in Sources */,
 				84292DF326B541EC0045D638 /* UIFont+MyFont.m in Sources */,
 				84292DD726B537630045D638 /* SceneDelegate.swift in Sources */,
@@ -279,6 +290,7 @@
 				8411018A26B6E2F800759BCE /* ModalViewController.swift in Sources */,
 				8411018D26B6E2F800759BCE /* NavigationController.swift in Sources */,
 				84292E0826B5678C0045D638 /* LandscapePath.m in Sources */,
+				8403A2E026B989A5003AE4DF /* TimerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
