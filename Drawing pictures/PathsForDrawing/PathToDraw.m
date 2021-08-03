@@ -10,6 +10,7 @@
 #import "HeadPath.h"
 
 @implementation PathToDraw
+
 +(PathToDraw*) shared{
     static PathToDraw *path = nil;
     if(path == nil) {

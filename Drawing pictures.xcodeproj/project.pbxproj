@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8403A2E026B989A5003AE4DF /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403A2DF26B989A5003AE4DF /* TimerViewController.m */; };
+		8403A2E626B9A04C003AE4DF /* DrawingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403A2E526B9A04C003AE4DF /* DrawingsViewController.m */; };
 		8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */; };
 		8411018126B6CE4F00759BCE /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018026B6CE4F00759BCE /* CanvasView.m */; };
 		8411018826B6E2F800759BCE /* DrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018226B6E2F800759BCE /* DrawingsViewController.swift */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		8403A2DE26B989A5003AE4DF /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
 		8403A2DF26B989A5003AE4DF /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		8403A2E426B9A04C003AE4DF /* DrawingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingsViewController.h; sourceTree = "<group>"; };
+		8403A2E526B9A04C003AE4DF /* DrawingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingsViewController.m; sourceTree = "<group>"; };
 		8411017C26B6B7F200759BCE /* ColorOnPaletteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorOnPaletteView.h; sourceTree = "<group>"; };
 		8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorOnPaletteView.m; sourceTree = "<group>"; };
 		8411017F26B6CE4F00759BCE /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				8403A2DF26B989A5003AE4DF /* TimerViewController.m */,
 				8411018E26B6E34B00759BCE /* ArtisiViewController.h */,
 				8411018F26B6E34B00759BCE /* ArtisiViewController.m */,
+				8403A2E426B9A04C003AE4DF /* DrawingsViewController.h */,
+				8403A2E526B9A04C003AE4DF /* DrawingsViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8411018C26B6E2F800759BCE /* TimerViewController.swift in Sources */,
+				8403A2E626B9A04C003AE4DF /* DrawingsViewController.m in Sources */,
 				8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */,
 				8422846126B5A62A00145290 /* PlanetPath.m in Sources */,
 				84292DF626B5454F0045D638 /* UIView+ToPNGDataMethod.m in Sources */,
