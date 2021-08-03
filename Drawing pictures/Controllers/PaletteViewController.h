@@ -8,10 +8,11 @@
 #import <UIKit/UIKit.h>
 #import "PaletteControl.h"
 #import "ActionButton.h"
+#import "ModalViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PaletteViewController : UIViewController
+@interface PaletteViewController : ModalViewController
 
 @property void(^callback)(NSMutableArray*);
 @property (strong,nonatomic) ActionButton* saveButton;
