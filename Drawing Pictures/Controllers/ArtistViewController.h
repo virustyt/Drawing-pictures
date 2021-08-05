@@ -12,6 +12,7 @@
 #import "TimerViewController.h"
 #import "DrawingsViewController.h"
 
+#import "UIView+ToPNGDataMethod.h"
 #import "UIFont+MyFont.h"
 
 NS_ASSUME_NONNULL_BEGIN

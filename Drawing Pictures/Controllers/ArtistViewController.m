@@ -232,9 +232,8 @@ static const CGFloat (^step)(NSTimeInterval) =
 }
 
 -(void) shareImage{
-    UIImage *image = self.canvasView.largeContentImage;
-    if(image){
-        UIActivityViewController *activity = [[UIActivityViewController alloc] initWithActivityItems:@[image] applicationActivities:nil];
+    if([self.canvasView asImage]){
+        UIActivityViewController *activity = [[UIActivityViewController alloc] initWithActivityItems:@[[self.canvasView asImage]] applicationActivities:nil];
         
         [self presentViewController:activity animated:true completion:^(void){}];
     }

@@ -146,9 +146,10 @@
 
 -(void) paletteButtonHandler:(PaletteControl*) selectedPaletteControl{
     if (selectedPaletteControl.isOn){
-        for (id color in self.selectedColors){
-            if ([color isKindOfClass:UIColor.class]){
-                if ([(UIColor*) color isEqual: selectedPaletteControl.subviews[0].backgroundColor]){
+        for (int index = 0; index <= [self.selectedColors count];index++){
+            if ([self.selectedColors[index] isKindOfClass:UIColor.class]){
+                UIColor *color = self.selectedColors[index];
+                if ([color isEqual: selectedPaletteControl.subviews[0].backgroundColor]){
                     [self.selectedColors removeObject:color];
                 }
             }

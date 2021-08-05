@@ -28,6 +28,8 @@
     self = [super init];
     if (self) {
         [self setup];
+        self.showsTouchWhenHighlighted = true;
+        self.layer.cornerRadius = 10.0;
     }
     return self;
 }

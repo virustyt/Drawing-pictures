@@ -21,7 +21,6 @@
 		8422847326B5BB3200145290 /* PaletteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422847226B5BB3200145290 /* PaletteControl.m */; };
 		84292DD526B537630045D638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84292DD426B537630045D638 /* AppDelegate.swift */; };
 		84292DD726B537630045D638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84292DD626B537630045D638 /* SceneDelegate.swift */; };
-		84292DDE26B537650045D638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84292DDD26B537650045D638 /* Assets.xcassets */; };
 		84292DE126B537650045D638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84292DDF26B537650045D638 /* LaunchScreen.storyboard */; };
 		84292DF026B53BF30045D638 /* UIColor+MyColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292DEF26B53BF30045D638 /* UIColor+MyColors.m */; };
 		84292DF326B541EC0045D638 /* UIFont+MyFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292DF226B541EC0045D638 /* UIFont+MyFont.m */; };
@@ -30,6 +29,7 @@
 		84292E0526B55D940045D638 /* HeadPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0426B55D940045D638 /* HeadPath.m */; };
 		84292E0826B5678C0045D638 /* LandscapePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0726B5678C0045D638 /* LandscapePath.m */; };
 		84329F2826B7353000680AAD /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84329F2726B7353000680AAD /* ModalViewController.m */; };
+		84EA21B626BBF902007AF8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EA21B526BBF902007AF8AB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +60,6 @@
 		84292DD126B537630045D638 /* DrawingPictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingPictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84292DD426B537630045D638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84292DD626B537630045D638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84292DDD26B537650045D638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84292DE026B537650045D638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84292DE226B537650045D638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84292DEE26B53BF30045D638 /* UIColor+MyColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MyColors.h"; sourceTree = "<group>"; };
@@ -78,6 +77,7 @@
 		84329F2626B7353000680AAD /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
 		84329F2726B7353000680AAD /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 		84B0F77826BB14E00058D7FF /* DrawingPictures-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingPictures-Bridging-Header.h"; sourceTree = "<group>"; };
+		84EA21B526BBF902007AF8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../Volumes/VMware Shared Folders/SharedFolderForVMWare/AppIcons (4)/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 				84292DEB26B537B40045D638 /* Controllers */,
 				84292DD426B537630045D638 /* AppDelegate.swift */,
 				84292DD626B537630045D638 /* SceneDelegate.swift */,
-				84292DDD26B537650045D638 /* Assets.xcassets */,
+				84EA21B526BBF902007AF8AB /* Assets.xcassets */,
 				84292DDF26B537650045D638 /* LaunchScreen.storyboard */,
 				84292DE226B537650045D638 /* Info.plist */,
 				84B0F77826BB14E00058D7FF /* DrawingPictures-Bridging-Header.h */,
@@ -249,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84292DE126B537650045D638 /* LaunchScreen.storyboard in Resources */,
-				84292DDE26B537650045D638 /* Assets.xcassets in Resources */,
+				84EA21B626BBF902007AF8AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
