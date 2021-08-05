@@ -9,14 +9,10 @@
 /* Begin PBXBuildFile section */
 		8403A2E026B989A5003AE4DF /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403A2DF26B989A5003AE4DF /* TimerViewController.m */; };
 		8403A2E626B9A04C003AE4DF /* DrawingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403A2E526B9A04C003AE4DF /* DrawingsViewController.m */; };
+		8403A2E926B9B10D003AE4DF /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403A2E826B9B10D003AE4DF /* NavigationController.m */; };
 		8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */; };
 		8411018126B6CE4F00759BCE /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018026B6CE4F00759BCE /* CanvasView.m */; };
-		8411018826B6E2F800759BCE /* DrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018226B6E2F800759BCE /* DrawingsViewController.swift */; };
-		8411018926B6E2F800759BCE /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018326B6E2F800759BCE /* ArtistViewController.swift */; };
-		8411018A26B6E2F800759BCE /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018426B6E2F800759BCE /* ModalViewController.swift */; };
-		8411018C26B6E2F800759BCE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018626B6E2F800759BCE /* TimerViewController.swift */; };
-		8411018D26B6E2F800759BCE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411018726B6E2F800759BCE /* NavigationController.swift */; };
-		8411019026B6E34B00759BCE /* ArtisiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018F26B6E34B00759BCE /* ArtisiViewController.m */; };
+		8411019026B6E34B00759BCE /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411018F26B6E34B00759BCE /* ArtistViewController.m */; };
 		8411019326B6F57A00759BCE /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411019226B6F57A00759BCE /* PaletteViewController.m */; };
 		8422846126B5A62A00145290 /* PlanetPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846026B5A62A00145290 /* PlanetPath.m */; };
 		8422846326B5A7DF00145290 /* TreePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422846226B5A7DF00145290 /* TreePath.m */; };
@@ -34,7 +30,6 @@
 		84292E0526B55D940045D638 /* HeadPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0426B55D940045D638 /* HeadPath.m */; };
 		84292E0826B5678C0045D638 /* LandscapePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84292E0726B5678C0045D638 /* LandscapePath.m */; };
 		84329F2826B7353000680AAD /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84329F2726B7353000680AAD /* ModalViewController.m */; };
-		84329F2A26B7360000680AAD /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84329F2926B7360000680AAD /* PaletteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,17 +37,14 @@
 		8403A2DF26B989A5003AE4DF /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		8403A2E426B9A04C003AE4DF /* DrawingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingsViewController.h; sourceTree = "<group>"; };
 		8403A2E526B9A04C003AE4DF /* DrawingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingsViewController.m; sourceTree = "<group>"; };
+		8403A2E726B9B10D003AE4DF /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		8403A2E826B9B10D003AE4DF /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		8411017C26B6B7F200759BCE /* ColorOnPaletteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorOnPaletteView.h; sourceTree = "<group>"; };
 		8411017D26B6B7F200759BCE /* ColorOnPaletteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorOnPaletteView.m; sourceTree = "<group>"; };
 		8411017F26B6CE4F00759BCE /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		8411018026B6CE4F00759BCE /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
-		8411018226B6E2F800759BCE /* DrawingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingsViewController.swift; sourceTree = "<group>"; };
-		8411018326B6E2F800759BCE /* ArtistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
-		8411018426B6E2F800759BCE /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
-		8411018626B6E2F800759BCE /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
-		8411018726B6E2F800759BCE /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		8411018E26B6E34B00759BCE /* ArtisiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtisiViewController.h; sourceTree = "<group>"; };
-		8411018F26B6E34B00759BCE /* ArtisiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtisiViewController.m; sourceTree = "<group>"; };
+		8411018E26B6E34B00759BCE /* ArtistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
+		8411018F26B6E34B00759BCE /* ArtistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistViewController.m; sourceTree = "<group>"; };
 		8411019126B6F57A00759BCE /* PaletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		8411019226B6F57A00759BCE /* PaletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
 		8422845F26B5A58A00145290 /* PlanetPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanetPath.h; sourceTree = "<group>"; };
@@ -65,7 +57,7 @@
 		8422847026B5AB1D00145290 /* DrawButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawButton.h; sourceTree = "<group>"; };
 		8422847126B5BB0B00145290 /* PaletteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteControl.h; sourceTree = "<group>"; };
 		8422847226B5BB3200145290 /* PaletteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteControl.m; sourceTree = "<group>"; };
-		84292DD126B537630045D638 /* Drawing pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84292DD126B537630045D638 /* DrawingPictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingPictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84292DD426B537630045D638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84292DD626B537630045D638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84292DDD26B537650045D638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +77,7 @@
 		84292E0926B567C10045D638 /* LandscapePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapePath.h; sourceTree = "<group>"; };
 		84329F2626B7353000680AAD /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
 		84329F2726B7353000680AAD /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
-		84329F2926B7360000680AAD /* PaletteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
+		84B0F77826BB14E00058D7FF /* DrawingPictures-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingPictures-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +94,7 @@
 		84292DC826B537630045D638 = {
 			isa = PBXGroup;
 			children = (
-				84292DD326B537630045D638 /* Drawing pictures */,
+				84292DD326B537630045D638 /* Drawing Pictures */,
 				84292DD226B537630045D638 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,12 +102,12 @@
 		84292DD226B537630045D638 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84292DD126B537630045D638 /* Drawing pictures.app */,
+				84292DD126B537630045D638 /* DrawingPictures.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84292DD326B537630045D638 /* Drawing pictures */ = {
+		84292DD326B537630045D638 /* Drawing Pictures */ = {
 			isa = PBXGroup;
 			children = (
 				84292DE826B537820045D638 /* Extensions */,
@@ -127,8 +119,9 @@
 				84292DDD26B537650045D638 /* Assets.xcassets */,
 				84292DDF26B537650045D638 /* LaunchScreen.storyboard */,
 				84292DE226B537650045D638 /* Info.plist */,
+				84B0F77826BB14E00058D7FF /* DrawingPictures-Bridging-Header.h */,
 			);
-			path = "Drawing pictures";
+			path = "Drawing Pictures";
 			sourceTree = "<group>";
 		};
 		84292DE826B537820045D638 /* Extensions */ = {
@@ -181,22 +174,18 @@
 		84292DEB26B537B40045D638 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				84329F2926B7360000680AAD /* PaletteViewController.swift */,
-				8411018726B6E2F800759BCE /* NavigationController.swift */,
-				8411018326B6E2F800759BCE /* ArtistViewController.swift */,
-				8411018226B6E2F800759BCE /* DrawingsViewController.swift */,
-				8411018426B6E2F800759BCE /* ModalViewController.swift */,
-				8411018626B6E2F800759BCE /* TimerViewController.swift */,
 				84329F2626B7353000680AAD /* ModalViewController.h */,
 				84329F2726B7353000680AAD /* ModalViewController.m */,
 				8411019126B6F57A00759BCE /* PaletteViewController.h */,
 				8411019226B6F57A00759BCE /* PaletteViewController.m */,
 				8403A2DE26B989A5003AE4DF /* TimerViewController.h */,
 				8403A2DF26B989A5003AE4DF /* TimerViewController.m */,
-				8411018E26B6E34B00759BCE /* ArtisiViewController.h */,
-				8411018F26B6E34B00759BCE /* ArtisiViewController.m */,
+				8411018E26B6E34B00759BCE /* ArtistViewController.h */,
+				8411018F26B6E34B00759BCE /* ArtistViewController.m */,
 				8403A2E426B9A04C003AE4DF /* DrawingsViewController.h */,
 				8403A2E526B9A04C003AE4DF /* DrawingsViewController.m */,
+				8403A2E726B9B10D003AE4DF /* NavigationController.h */,
+				8403A2E826B9B10D003AE4DF /* NavigationController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84292DD026B537630045D638 /* Drawing pictures */ = {
+		84292DD026B537630045D638 /* DrawingPictures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84292DE526B537650045D638 /* Build configuration list for PBXNativeTarget "Drawing pictures" */;
+			buildConfigurationList = 84292DE526B537650045D638 /* Build configuration list for PBXNativeTarget "DrawingPictures" */;
 			buildPhases = (
 				84292DCD26B537630045D638 /* Sources */,
 				84292DCE26B537630045D638 /* Frameworks */,
@@ -216,9 +205,9 @@
 			);
 			dependencies = (
 			);
-			name = "Drawing pictures";
+			name = DrawingPictures;
 			productName = "Drawing pictures";
-			productReference = 84292DD126B537630045D638 /* Drawing pictures.app */;
+			productReference = 84292DD126B537630045D638 /* DrawingPictures.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84292DCC26B537630045D638 /* Build configuration list for PBXProject "Drawing pictures" */;
+			buildConfigurationList = 84292DCC26B537630045D638 /* Build configuration list for PBXProject "DrawingPictures" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -249,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84292DD026B537630045D638 /* Drawing pictures */,
+				84292DD026B537630045D638 /* DrawingPictures */,
 			);
 		};
 /* End PBXProject section */
@@ -271,18 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8411018C26B6E2F800759BCE /* TimerViewController.swift in Sources */,
 				8403A2E626B9A04C003AE4DF /* DrawingsViewController.m in Sources */,
 				8411017E26B6B7F200759BCE /* ColorOnPaletteView.m in Sources */,
 				8422846126B5A62A00145290 /* PlanetPath.m in Sources */,
 				84292DF626B5454F0045D638 /* UIView+ToPNGDataMethod.m in Sources */,
-				84329F2A26B7360000680AAD /* PaletteViewController.swift in Sources */,
-				8411018926B6E2F800759BCE /* ArtistViewController.swift in Sources */,
 				8422846D26B5AA7200145290 /* ActionButton.m in Sources */,
 				8411019326B6F57A00759BCE /* PaletteViewController.m in Sources */,
 				8422846326B5A7DF00145290 /* TreePath.m in Sources */,
-				8411019026B6E34B00759BCE /* ArtisiViewController.m in Sources */,
-				8411018826B6E2F800759BCE /* DrawingsViewController.swift in Sources */,
+				8411019026B6E34B00759BCE /* ArtistViewController.m in Sources */,
+				8403A2E926B9B10D003AE4DF /* NavigationController.m in Sources */,
 				8422847326B5BB3200145290 /* PaletteControl.m in Sources */,
 				8422846F26B5AAFE00145290 /* DrawButton.m in Sources */,
 				84292DD526B537630045D638 /* AppDelegate.swift in Sources */,
@@ -293,8 +279,6 @@
 				84292DD726B537630045D638 /* SceneDelegate.swift in Sources */,
 				84292E0226B5494D0045D638 /* PathToDraw.m in Sources */,
 				8411018126B6CE4F00759BCE /* CanvasView.m in Sources */,
-				8411018A26B6E2F800759BCE /* ModalViewController.swift in Sources */,
-				8411018D26B6E2F800759BCE /* NavigationController.swift in Sources */,
 				84292E0826B5678C0045D638 /* LandscapePath.m in Sources */,
 				8403A2E026B989A5003AE4DF /* TimerViewController.m in Sources */,
 			);
@@ -371,6 +355,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Drawing Pictures/DrawingPictures-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -425,6 +410,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Drawing Pictures/DrawingPictures-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -474,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84292DCC26B537630045D638 /* Build configuration list for PBXProject "Drawing pictures" */ = {
+		84292DCC26B537630045D638 /* Build configuration list for PBXProject "DrawingPictures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84292DE326B537650045D638 /* Debug */,
@@ -483,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84292DE526B537650045D638 /* Build configuration list for PBXNativeTarget "Drawing pictures" */ = {
+		84292DE526B537650045D638 /* Build configuration list for PBXNativeTarget "DrawingPictures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84292DE626B537650045D638 /* Debug */,
